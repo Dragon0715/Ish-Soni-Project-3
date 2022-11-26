@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 113
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 78
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,6 +311,7 @@ MonoBehaviour:
     - {fileID: 1060457316492069610, guid: ab30e871672e10b429ec46fdeee15d63, type: 2}
     - {fileID: -4140231259452449177, guid: 05fdf8de161eec043abe233d4baf4064, type: 2}
     - {fileID: 6955791641145094834, guid: 9f38d298989f85f4ea809e7eb17a0947, type: 2}
+    - {fileID: -7375050180984292578, guid: 4f9c56ad037da6d46850273f1cb08dbe, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.49878025
       e01: 0
@@ -376,10 +377,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 9f38d298989f85f4ea809e7eb17a0947, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 4f9c56ad037da6d46850273f1cb08dbe, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 6955791641145094834, guid: 9f38d298989f85f4ea809e7eb17a0947, type: 2}
+  - m_Target: {fileID: -7375050180984292578, guid: 4f9c56ad037da6d46850273f1cb08dbe, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -433,22 +450,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Project 3 Assets/MakeHuman
+    - Assets/Project 3 Assets/lich
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Project 3 Assets/MakeHuman
-  m_LastFoldersGridSize: -1
+  - Assets/Project 3 Assets/lich
+  m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\HP\Documents\CS 428 Project 3\Ish_Soni-Project-3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 175}
-    m_SelectedIDs: 1aed0100
-    m_LastClickedID: 126234
-    m_ExpandedIDs: 00000000ccec0100ceec0100d0ec0100d2ec0100d4ec0100d6ec0100d8ec010000ca9a3bffffff7f
+    m_SelectedIDs: a4ed0100
+    m_LastClickedID: 126372
+    m_ExpandedIDs: 00000000ccec0100ceec0100d0ec0100d2ec0100d4ec0100d6ec0100d8ec0100a4ed010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,8 +520,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300008c310000506f040012d204005edf01005aef000068ef00000000000016b3070018b30700
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300008c310000506f040012d204005edf01005aef000068ef00000000000016b3070018b3070012f3000022ef0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +537,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -529,7 +546,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 71
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &14
@@ -606,7 +623,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c6e1ffff4ee3ffff2efbffff
+      m_ExpandedIDs: 6c08ffffceb8ffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,7 +639,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -663,8 +680,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -685,7 +702,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -855,9 +872,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -22.561333, y: -0.08498675, z: 4.01954}
+    m_Target: {x: -10.59624, y: -5.7824016, z: 22.11911}
     speed: 2
-    m_Value: {x: -22.561333, y: -0.08498675, z: 4.01954}
+    m_Value: {x: -10.59624, y: -5.7824016, z: 22.11911}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -904,9 +921,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0037525431, y: 0.66710985, z: -0.00016106816, w: -0.74548167}
+    m_Target: {x: 0.13307026, y: -0.24165605, z: 0.036392912, w: 0.960939}
     speed: 2
-    m_Value: {x: 0.0026340613, y: 0.66684467, z: -0.0011621519, w: -0.7451912}
+    m_Value: {x: 0.13445535, y: -0.24150047, z: 0.036740612, w: 0.9603381}
   m_Size:
     m_Target: 12.115212
     speed: 2
